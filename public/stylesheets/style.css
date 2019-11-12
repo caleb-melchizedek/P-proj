@@ -31,3 +31,13 @@ a {
   grid-template-columns: auto auto;
   color: rgb(255, 255, 255);
 }
+
+#homeSection-2{
+  background-color:rgba(0, 0, 0, 0.75) ;
+  color: rgb(255, 255, 255);
+}
+#homeSection-2 ul li {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+

@@ -44,7 +44,7 @@ router.post('/login',function(req,res,next){
 });
 
 
-express().use('/home', homeRouter);
+//express().use('/home', homeRouter);
 /*
 router.get('/home', function(req,res,next){
   res.render('home',{

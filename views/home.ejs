@@ -16,14 +16,73 @@
         </center>
       </div>
 
-      <div  class=" banner-section" id="section-2">
-          
-        <h1><%= userDetails%></h1>
+      <div  class=" banner-section" id="homeSection-2">
+        <center>
+          <h3>Here is your state of account</h3>
 
-        <% userDetails.forEach(function(det){ %>        
-          <h5><%=det%></h5>
-        <% }); %>
+          <ul>
+            <li> 
+                <div>Name: </div> 
+                <div><%= name%></div>
+            </li>
+            <br>
 
+            <li> 
+                <div>Age: </div>
+                <div><%= age%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>Telephone: </div> 
+              <div><%= phone%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>Email: </div> 
+              <div><%= email%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>Gender: </div> 
+              <div><%= gender%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>My eye color: </div> 
+              <div><%= eyeColor%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>Is my account active?</div> 
+              <div><%= isActive%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>My balance: </div> 
+              <div><%= balance%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>My Company: </div> 
+              <div><%= company%></div>
+            </li>
+            <br>
+
+            <li> 
+              <div>My Address: </div> 
+              <div><%= address%></div>
+            </li>
+            <br>
+
+          </ul>
+        </center>
       </div>
 
     </div>
