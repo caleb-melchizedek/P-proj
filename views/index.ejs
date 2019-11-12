@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <div class="banner" >
+
+      <div class="banner-section" id="section-1">
+        <center>
+          
+          <h1><%= title %></h1>
+          <h5>Welcome to <%= title %></h5>
+        </center>
+      </div>
+
+      <div  class=" banner-section" id="section-2">
+          <div>
+            <h2>Login Here</h2>
+            <form method="POST" action="/login">
+              <input type="text" name="name" placeholder="Name" required>
+              <br> <br>
+              <input type="email" name="email" placeholder="Email" required>
+              <br> <br>
+              <input type="submit" name="Submit" >
+            </form>
+          </div>
+
+          <div>
+            <h2>Sign Up Here</h2>
+            <form>
+              <input type="text" name="name" placeholder="Name" required>
+              <br> <br>
+              <input type="email" name="email" placeholder="Email" required>
+              <br> <br>
+              <input type="submit" name="Submit" >
+            </form>
+          </div>
+
+          <h4><%= errMsg%></h4>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+ margin: 0;
+  font: 20px  "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/banner-landing-page.jpg");
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+.banner-section{
+  padding:50px;
+  vertical-align: center;
+}
+
+ #section-1{
+  font: 42px  "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+}
+ #section-2{
+  background-color:rgba(0, 0, 0, 0.75) ;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <div class="banner" >
+
+      <div class="banner-section" id="section-1">
+        <center>
+          
+          <h1><%= title %></h1>
+          <h5>Welcome to <%= title %></h5>
+        </center>
+      </div>
+
+      <div  class=" banner-section" id="section-2">
+          
+        <h1><%= userDetails%></h1>
+
+        <% userDetails.forEach(function(det){ %>        
+          <h5><%=det%></h5>
+        <% }); %>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
